@@ -51,14 +51,142 @@
   - [x] for Loop
   - [x] foreach Loop (with Indexed and Associative Arrays)
   - [x] Break and continue
-- [x] Arrays (Indexed, Associative, Multidimensional)
-  - [x] Defining Indexed Arrays
-  - [x] Accessing Array Elements
-  - [x] Associative Arrays (Key-Value Pairs)
-  - [x] Accessing Associative Array Elements
-  - [x] Multidimensional Arrays
-  - [x] Accessing Multidimensional Array Elements
-  - [x] Array Functions (`array_push`, `array_pop`, `count`, `sort`, `array_merge`)
+- [x] **Arrays**
+
+  - [ ] **Introduction to Arrays**
+
+    - [ ] Understanding arrays and their importance
+    - [ ] Declaration of arrays and basic syntax
+
+  - [ ] **Creating Arrays**
+
+    - [ ] Using `array()` function
+    - [ ] Using short array syntax (array literals)
+
+  - [ ] **Types of Arrays**
+
+    - [ ] Indexed Array
+    - [ ] Associative Array
+    - [ ] Multidimensional Array
+    - [ ] Multidimensional Associative Array
+
+  - [ ] **Accessing and Manipulating Array Elements**
+
+    - [ ] Accessing data in Indexed Arrays
+    - [ ] Accessing data in Associative Arrays
+    - [ ] Accessing data in Multidimensional Arrays
+    - [ ] Adding elements to arrays
+    - [ ] Inserting elements at specific positions
+
+  - [ ] **Array Iteration**
+
+    - [ ] Using `for` loop to iterate through arrays
+    - [ ] Using `foreach` loop to iterate through arrays
+    - [ ] Using `while` and `do-while` loops to iterate through arrays
+
+  - [ ] **Multidimensional Arrays**
+
+    - [ ] Working with two-dimensional arrays
+    - [ ] Working with three-dimensional and nested arrays
+    - [ ] Accessing specific data from multidimensional arrays
+
+  - [ ] **Converting Arrays to JSON and JSON to Arrays**
+
+    - [ ] Using `json_encode()` and `json_decode()`
+    - [ ] Converting JSON format to PHP arrays
+
+  - [ ] **Array Debugging and Tips**
+
+    - [ ] Debugging arrays with `print_r()` and `var_dump()`
+    - [ ] Common array errors and solutions
+
+  - [ ] **Array Functions**
+
+    - [ ] **Sorting Functions**
+
+      - [ ] `sort()`: Sorts values in ascending order
+      - [ ] `rsort()`: Sorts values in descending order
+      - [ ] `asort()`: Sorts values in ascending order while preserving keys
+      - [ ] `arsort()`: Sorts values in descending order while preserving keys
+      - [ ] `ksort()`: Sorts keys in ascending order
+      - [ ] `krsort()`: Sorts keys in descending order
+      - [ ] `usort()`: Sorts values using a custom user-defined function
+      - [ ] `uksort()`: Sorts keys using a custom user-defined function
+      - [ ] `uasort()`: Sorts values using a custom user-defined function while preserving keys
+      - [ ] `natsort()`: Sorts values using a natural order algorithm
+      - [ ] `natcasesort()`: Sorts values using a case-insensitive natural order algorithm
+
+    - [ ] **Searching Functions**
+
+      - [ ] `in_array()`: Checks if a value exists in an array
+      - [ ] `array_search()`: Finds the first key of a specified value
+      - [ ] `array_key_exists()`: Checks if a specified key exists in an array
+      - [ ] `array_keys()`: Returns all keys of an array
+      - [ ] `array_values()`: Returns all values of an array
+
+    - [ ] **Filtering Functions**
+
+      - [ ] `array_filter()`: Filters array values based on a user-defined function
+      - [ ] `array_unique()`: Removes duplicate values from an array
+      - [ ] `array_diff()`: Returns values from the first array that are not present in other arrays
+      - [ ] `array_diff_assoc()`: Returns values and keys from the first array that are not present in other arrays
+      - [ ] `array_diff_key()`: Returns keys from the first array that are not present in other arrays
+      - [ ] `array_intersect()`: Returns values present in all arrays
+      - [ ] `array_intersect_assoc()`: Returns values and keys present in all arrays
+      - [ ] `array_intersect_key()`: Returns keys present in all arrays
+
+    - [ ] **Mapping Functions**
+
+      - [ ] `array_map()`: Applies a user-defined function to each value in an array
+      - [ ] `array_walk()`: Applies a user-defined function to each element in an array
+      - [ ] `array_walk_recursive()`: Applies a user-defined function to each element in a recursive array
+
+    - [ ] **Merging and Combining Functions**
+
+      - [ ] `array_merge()`: Merges two or more arrays
+      - [ ] `array_merge_recursive()`: Recursively merges two or more arrays
+      - [ ] `array_combine()`: Combines two arrays into one array, using one array for keys and the other for values
+      - [ ] `array_replace()`: Replaces elements in an array with elements from another array
+      - [ ] `array_replace_recursive()`: Recursively replaces elements in an array with elements from another array
+
+    - [ ] **Splitting Functions**
+
+      - [ ] `array_slice()`: Extracts a portion of an array
+      - [ ] `array_splice()`: Removes a portion of an array and replaces it with new elements
+      - [ ] `array_chunk()`: Splits an array into chunks of a specified size
+      - [ ] `explode()`: Splits a string by a delimiter into an array
+      - [ ] `implode()`: Joins array elements into a string
+
+    - [ ] **Array Manipulation Functions**
+
+      - [ ] `array_push()`: Adds one or more elements to the end of an array
+      - [ ] `array_pop()`: Removes the last element of an array
+      - [ ] `array_unshift()`: Adds one or more elements to the beginning of an array
+      - [ ] `array_shift()`: Removes the first element of an array
+      - [ ] `array_pad()`: Pads an array to a specified length with a value
+      - [ ] `array_flip()`: Exchanges the keys and values of an array
+      - [ ] `array_reverse()`: Reverses the order of elements in an array
+      - [ ] `array_fill()`: Fills an array with a specified value starting at a specified index
+      - [ ] `array_fill_keys()`: Fills an array with a specified value for specified keys
+
+    - [ ] **Counting Functions**
+
+      - [ ] `count()`: Counts the number of elements in an array
+      - [ ] `array_count_values()`: Counts the frequency of each value in an array
+
+    - [ ] **Mathematical Functions**
+
+      - [ ] `array_sum()`: Returns the sum of all values in an array
+      - [ ] `array_product()`: Returns the product of all values in an array
+      - [ ] `range()`: Creates an array containing a range of elements
+      - [ ] `array_rand()`: Picks one or more random keys from an array
+      - [ ] `shuffle()`: Randomly shuffles the elements of an array
+
+    - [ ] **Key and Value Management Functions**
+      - [ ] `array_key_first()`: Returns the first key of an array
+      - [ ] `array_key_last()`: Returns the last key of an array
+      - [ ] `array_column()`: Returns values from a single column in a multidimensional array
+
 - [x] Strings and String Manipulation
   - [x] What is a Strings
   - [x] Definition of Strings in PHP

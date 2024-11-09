@@ -38,7 +38,7 @@ Variables in PHP can have different scopes:
 
 ### 2. **Understanding Data Types**
 
-PHP supports various data types to store different kinds of information. The main data types in PHP are:
+PHP provides eight types of values, or data types. Four are scalar (single-value) types: integers, floating-point numbers, strings, and Booleans. Two are compound (collection) types: arrays and objects. The remaining two are special types: resource and NULL. The main data types in PHP are:
 
 #### **2.1 String**
 

@@ -8,7 +8,7 @@
   - [ ] Verifying PHP Installation
 - [x] Your First PHP Script
   - [x] How To write and Run Your Script
-  - [x] Displaying Output(echo, print, print_r, var_dump, printf, sprintf)
+- [x] Displaying Output(echo, print, print_r, var_dump, printf, sprintf)
   - [x] echo
   - [x] print
   - [x] print_r

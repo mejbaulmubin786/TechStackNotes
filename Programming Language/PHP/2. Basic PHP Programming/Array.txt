@@ -1,0 +1,18 @@
+ Arrays (Main Topic)
+ Introduction to Arrays(subtopic)
+
+ Understanding arrays and their importance(subsubtopic)
+ Declaration of arrays and basic syntax(subsubtopic)
+
+ Creating Arrays(subtopic)
+ Using array() function(subsubtopic)
+ Using short array syntax (array literals)(subsubtopic)
+
+ Types of Arrays(subtopic)
+
+ Indexed Array(subsubtopic)
+ Associative Array(subsubtopic)
+ Multidimensional Array(subsubtopic)
+ Multidimensional Associative Array(subsubtopic)
+
+ Storing Data in Arrays(subtopic)

@@ -75,8 +75,10 @@
     - [ ] Accessing data in Indexed Arrays
     - [ ] Accessing data in Associative Arrays
     - [ ] Accessing data in Multidimensional Arrays
+    - [ ] Accessing data in Multidimensional Associative Array
     - [ ] Adding elements to arrays
     - [ ] Inserting elements at specific positions
+    - [ ] Inserting elements in a fresh blank Array
 
   - [ ] **Array Iteration**
 

@@ -36,7 +36,7 @@ PHP code is enclosed within special tags that tell the server to interpret the e
 
 #### **1.2 Case Sensitivity**
 
-PHP is partially case-sensitive:
+PHP is partially case-sensitive: The names of user-defined classes and functions, as well as built-in constructs and keywords (such as echo, while, class, etc.), are case-insensitive. **Variables, on the other hand, are case-sensitive.**
 
 - **Case-Insensitive Keywords**: PHP keywords like `if`, `else`, `while`, `function`, `echo`, etc., are not case-sensitive, meaning these can be written in any case.
 

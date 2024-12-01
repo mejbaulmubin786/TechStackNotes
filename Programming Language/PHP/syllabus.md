@@ -204,6 +204,93 @@
     - [x] Using escape sequences
     - [x] Proper usage of escape characters in single and double quotes.
   - [x] String Functions (`strlen`, `str_replace`, `strpos`, `substr`, `trim`, `strtoupper`, `strtolower`)
+  - [ ] **Manipulation Functions**
+- [ ]  **Manipulation Functions**
+     - [ ]  strlen()**: Returns the length of a string.
+     - [ ]  strtolower()**: Converts a string to lowercase.
+     - [ ]  strtoupper()**: Converts a string to uppercase.
+     - [ ]  ucfirst()**: Converts the first character of a string to uppercase.
+     - [ ]  lcfirst()**: Converts the first character of a string to lowercase.
+     - [ ]  ucwords()**: Converts the first character of each word in a string to uppercase.
+     - [ ]  strrev()**: Reverses a string.
+     - [ ]  str_repeat()**: Repeats a string a specified number of times.
+     - [ ]  trim()**: Removes whitespace or other specified characters from both ends of a string.
+     - [ ]  ltrim()**: Removes whitespace or other specified characters from the beginning of a string.
+     - [ ]  rtrim()**: Removes whitespace or other specified characters from the end of a string.
+     - [ ]  wordwrap()**: Wraps a string to a specified number of characters.
+
+
+- [ ]  **Search and Extraction Functions**
+     - [ ]  strpos()**: Finds the first occurrence of a substring in a string.
+     - [ ]  stripos()**: Finds the first occurrence of a substring in a string (case-insensitive).
+     - [ ]  strrpos()**: Finds the last occurrence of a substring in a string.
+     - [ ]  strripos()**: Finds the last occurrence of a substring in a string (case-insensitive).
+     - [ ]  substr()**: Extracts a portion of a string.
+     - [ ]  strstr()**: Finds the first occurrence of a substring and returns the rest of the string.
+     - [ ]  stristr()**: Case-insensitive version of strstr().
+     - [ ]  substr_count()**: Counts the number of occurrences of a substring in a string.
+     - [ ]  strpos_array()**: Finds the first occurrence of any substring from an array.
+
+
+- [ ]  **Replacement Functions**
+     - [ ]  str_replace()**: Replaces all occurrences of a search string with a replacement string.
+     - [ ]  str_ireplace()**: Case-insensitive version of str_replace().
+     - [ ]  substr_replace()**: Replaces a portion of a string with another string.
+     - [ ]  strtr()**: Translates characters or replaces substrings in a string.
+     - [ ]  preg_replace()**: Performs a regular expression search and replace.
+
+
+- [ ]  **Splitting and Joining Functions**
+     - [ ]  explode()**: Splits a string by a specified delimiter into an array.
+     - [ ]  implode()**: Joins array elements into a string with a specified delimiter.
+     - [ ]  str_split()**: Splits a string into an array of fixed-length substrings.
+     - [ ]  preg_split()**: Splits a string by a regular expression into an array.
+
+
+- [ ]  **Comparison and Testing Functions**
+     - [ ]  strcmp()**: Compares two strings (case-sensitive).
+     - [ ]  strcasecmp()**: Compares two strings (case-insensitive).
+     - [ ]  strnatcmp()**: Compares two strings using a "natural order" algorithm.
+     - [ ]  strncasecmp()**: Compares the first n characters of two strings (case-insensitive).
+     - [ ]  strstr()**: Checks if a string contains a specified substring.
+     - [ ]  preg_match()**: Performs a regular expression match.
+     - [ ]  preg_match_all()**: Finds all matches of a regular expression in a string.
+
+
+- [ ]  **Encoding and Decoding Functions**
+     - [ ]  htmlspecialchars()**: Converts special characters to HTML entities.
+     - [ ]  htmlentities()**: Converts characters to their corresponding HTML entities.
+     - [ ]  htmlspecialchars_decode()**: Decodes HTML entities back to their original characters.
+     - [ ]  urldecode()**: Decodes a URL-encoded string.
+     - [ ]  urlencode()**: Encodes a string for use in a URL.
+     - [ ]  base64_encode()**: Encodes data with Base64 encoding.
+     - [ ]  base64_decode()**: Decodes Base64-encoded data.
+     - [ ]  rawurlencode()**: Encodes a string for use in a URL (raw encoding).
+
+
+- [ ]  **Padding Functions**
+     - [ ]  str_pad()**: Pads a string to a specified length with a specified character.
+     - [ ]  addslashes()**: Adds backslashes before specified characters in a string.
+     - [ ]  stripslashes()**: Removes backslashes added by addslashes().
+     - [ ]  quotemeta()**: Escapes special characters in a string for use in a regular expression.
+
+
+- [ ]  **Random and Cryptographic Functions**
+     - [ ]  md5()**: Computes the MD5 hash of a string.
+     - [ ]  sha1()**: Computes the SHA-1 hash of a string.
+     - [ ]  crc32()**: Computes a CRC32 hash of a string.
+     - [ ]  random_bytes()**: Generates cryptographically secure random bytes.
+     - [ ]  random_int()**: Generates a cryptographically secure random integer.
+     - [ ]  uniqid()**: Generates a unique identifier.
+
+
+- [ ]  **Locale and Multibyte Functions**
+     - [ ]  setlocale()**: Sets locale information for string functions.
+     - [ ]  localeconv()**: Retrieves locale-specific formatting information.
+     - [ ]  mb_strlen()**: Returns the length of a multibyte string.
+     - [ ]  mb_substr()**: Extracts a portion of a multibyte string.
+     - [ ]  mb_strtolower()**: Converts a multibyte string to lowercase.
+     - [ ]  mb_strtoupper()**: Converts a multibyte string to uppercase.
 - [ ] Functions (Built-in and User-Defined)
   - [ ] Built-in and User-Defined Functions
   - [ ] Defining and Calling Functions

@@ -1,4 +1,4 @@
-Here’s the complete syllabus, structured from beginner to professional levels in Data Structures and Algorithms (DSA) using PHP. This curriculum covers fundamental concepts, intermediate and advanced topics, practical applications, and professional skills. I’ve included all topics and suggestions for real-world applications, complexity theory, and PHP optimization for DSA.
+Here’s the complete syllabus, structured from beginner to professional levels in Data Structures and Algorithms (DSA) using PHP. This curriculum covers fundamental concepts, intermediate and advanced topics, practical applications, and professional skills. I’ve included all topics and suggestions for real-world applications, complexity theory, and PHP optimization for DSA. 
 
 ---
 
@@ -7,7 +7,6 @@ Here’s the complete syllabus, structured from beginner to professional levels 
 In this phase, you’ll build a strong foundation by understanding the basics of DSA and PHP necessary for implementing algorithms and data structures.
 
 1. **Introduction to DSA and PHP for DSA**
-
    - What are Data Structures and Algorithms?
    - Introduction to PHP syntax relevant for DSA (variables, control structures, functions)
    - PHP memory management and handling data types in DSA contexts
@@ -186,3 +185,4 @@ This phase focuses on solving industry-level problems and prepares you for compe
 ---
 
 This comprehensive syllabus ensures that you progress from beginner to professional, covering fundamental concepts, intermediate and advanced techniques, optimization, and practical, industry-level applications. Each phase builds upon the last to deepen your understanding and enhance your problem-solving capabilities using PHP.
+---
